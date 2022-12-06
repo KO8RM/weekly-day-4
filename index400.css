@@ -1,0 +1,134 @@
+body{
+    background-image: linear-gradient(red,purple,blue);
+    height: 800px;
+    width: 100%;
+}
+.logo{
+    height: 76px;
+    width: 200px;
+    margin-left: 150px;
+}
+.div1{
+    color: white;
+}
+.albumphoto{
+    width: 250px;
+    height: 250px;
+    margin-left: 150px;
+    margin-right: 15px;
+    margin-top: 40px;
+    
+}
+.name{
+    margin-left: 420px;
+    margin-top: -240px;
+
+}
+.text{
+    width: 490px;
+    font-size: medium;
+    text-align: justify;
+    margin-left: 420px;
+}
+.div2{
+    display: flex; 
+    justify-content: flex-end;
+    margin-top: -255px;
+    border: transparent;
+}
+.home{
+    margin: 4px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 15px;
+    border: transparent;
+}
+.othersong{
+    margin: 4px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 15px;
+    border: transparent;
+}
+.fav{
+    margin: 4px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 15px;
+    border: transparent;
+}
+.signup{
+    margin: 4px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 15px;
+    border: transparent;
+}
+.signin{
+    margin: 4px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 15px;
+    border: transparent;
+}
+
+.albums{
+    margin: 12px;
+}
+.img1{
+    height: 200px;
+    margin-top: 380px;
+    margin-left: 140px;
+}
+.nam1{
+    margin-right: 185px;
+    margin-left: 10px;
+}
+
+.nam3{
+    margin-left: 200px;
+}
+.img2{
+    height: 200px;
+    margin-top: 380px;
+    margin-left: 50px;
+}
+.img3{
+    height: 200px;
+    margin-top: 380px;
+    margin-left: 50px;
+}
+.img4{
+    height: 200px;
+    margin-top: 380px;
+    margin-left: 50px;
+}
+.img5{
+    height: 200px;
+    margin-top: 380px;
+    margin-left: 50px;
+}
+.nam4{
+    margin-left: 145px;
+}
+.nam5{
+    margin-left: 80px;
+}
+.allnames{
+    display: flex;
+    margin-left: 200px;
+    margin-top: -20px;
+    color: white;
+}
+.hrr{
+    color: white;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.hr1{
+    background-color: white;
+}
+
+
+
+
