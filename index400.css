@@ -3,38 +3,43 @@ body{
     height: 800px;
     width: 100%;
 }
-.logo{
-    height: 76px;
-    width: 200px;
-    margin-left: 150px;
-}
 .div1{
-    color: white;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
 }
-.albumphoto{
+.mainphoto{
     width: 250px;
     height: 250px;
-    margin-left: 150px;
-    margin-right: 15px;
-    margin-top: 40px;
-    
-}
-.name{
-    margin-left: 420px;
-    margin-top: -240px;
-
 }
 .text{
-    width: 490px;
+    margin-right: 210px;
     font-size: medium;
-    text-align: justify;
-    margin-left: 420px;
+    text-align:justify;
+    color: white;
+    width: 490px;
+}
+.name{
+    color: white;
+}
+.inalbm{
+    justify-content: flex-start;
+    margin-left: 220px;
+}
+.bros{
+    justify-content: flex-end;
+    margin-right: 345px;
+    margin-left: 10px;
 }
 .div2{
-    display: flex; 
+    display: flex;
+    justify-content: space-around;
+}
+.navbar{
     justify-content: flex-end;
-    margin-top: -255px;
-    border: transparent;
+}
+.logor{
+    justify-content: flex-start;
 }
 .home{
     margin: 4px;
@@ -72,63 +77,99 @@ body{
     border: transparent;
 }
 
-.albums{
-    margin: 12px;
-}
 .img1{
     height: 200px;
-    margin-top: 380px;
-    margin-left: 140px;
-}
-.nam1{
-    margin-right: 185px;
-    margin-left: 10px;
-}
-
-.nam3{
-    margin-left: 200px;
 }
 .img2{
     height: 200px;
-    margin-top: 380px;
-    margin-left: 50px;
 }
 .img3{
     height: 200px;
-    margin-top: 380px;
-    margin-left: 50px;
 }
 .img4{
     height: 200px;
-    margin-top: 380px;
-    margin-left: 50px;
 }
 .img5{
     height: 200px;
-    margin-top: 380px;
-    margin-left: 50px;
 }
-.nam4{
-    margin-left: 145px;
-}
-.nam5{
-    margin-left: 80px;
-}
-.allnames{
-    display: flex;
-    margin-left: 200px;
-    margin-top: -20px;
-    color: white;
+
+.common{
+    margin-top: 100px;
+    justify-content: space-evenly;
 }
 .hrr{
     color: white;
     text-align: center;
-    margin-bottom: 5px;
 }
-.hr1{
+hr{
     background-color: white;
 }
 
+@media (min-width: 361px) and (max-width: 767px)
 
+{
+    body {
+    background: red;
+    }
+    .div2{
+        display: block;
+        text-align: center;
+    }
+    .div1{
+        display: block;
+        text-align: center;
+    }
+    .inalbm{
+        margin-left: 0px;
+    }
+    .text{
+        width: 100%;
+    }
+    .bros{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .common{
+        display: block !important;
+    }
+    .pair1{
+        padding-left: 0px !important;
+    }
+    .pair5{
+        padding-right: 0px !important;
+    }
+}
 
-
+@media (min-width: 768px) and (max-width: 992px)
+{
+    body{
+        background: blueviolet;
+    }
+    .div2{
+        display: block;
+        text-align: center;
+    }
+    .div1{
+        display: block;
+        text-align: center;
+    }
+    .inalbm{
+        margin-left: 0px;
+    }
+    .text{
+        width: 100%;
+    }
+    .bros{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .common{
+        display: block !important;
+    }
+    .pair1{
+        padding-left: 0px !important;
+    }
+    .pair5{
+        padding-right: 0px !important;
+    }
+}
